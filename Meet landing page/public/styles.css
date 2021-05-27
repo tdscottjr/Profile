@@ -1,0 +1,45 @@
+.Profile{
+  text-align: center;
+  color: #3c415c;
+  font-family: 'Abril Fatface', cursive;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+ -moz-animation: glow 1s ease-in-out infinite alternate;
+ animation: glow 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #04009a, 0 0 40px #77acf1, 0 0 50px #04009a, 0 0 60px #77acf1, 0 0 70px #04009a;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #3edbf0, 0 0 40px #c0fefc, 0 0 50px #3edbf0, 0 0 60px #c0fefc, 0 0 70px #3edbf0, 0 0 80px #c0fefc;
+  }
+}
+
+html body {
+background-color: #b4a5a5;
+background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png");
+
+}
+
+
+header {
+  padding: 50px;
+}
+
+
+.Rigby{
+  border-radius: 30px;
+  border: 1px solid;
+}
+
+.Mordecai {
+  border-radius: 30px;
+  border: 1px solid;
+}
+
+.Skips{
+  border-radius: 30px;
+  border: 1px solid;
+  padding: 20px;
+}
